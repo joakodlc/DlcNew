@@ -111,6 +111,10 @@ hr {
     margin-bottom: 10px;
 }
 
+.showcase .btn {
+    margin-top: 20px;
+}
+
 /* NEWS CARDS */
 .news-cards {
     display: grid;
@@ -152,7 +156,7 @@ hr {
 .cards-banner-one .content {
     width: 40%;
     padding: 90px 0 0 30px;
-    color: #fff;
+    color: #000;
 }
 
 .cards-banner-one p
@@ -219,10 +223,11 @@ hr {
         top: 0;
         left: 0;
         background: #2f3640;
+        border-right: #ccc 1px solid;
         height: 100%;
         padding: 30px;
         opacity: .9;
-        transform: translateX(-400px);
+        transform: translateX(-500px);
         transition: transform .5s ease-in-out;
     }
 
